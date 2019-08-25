@@ -1,0 +1,49 @@
+#hud {
+    height: 100px;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.cell {
+    position: absolute;
+    color: black;
+}
+
+.crashed_block {
+    background-color: dodgerblue;
+}
+
+.hero_head{
+    background-color: dodgerblue;
+}
+
+.hero{
+    background-color: white;
+}
+
+.mob_with_cake{
+    background-color: darkred;
+}
+
+.mob{
+    background-color: orangered;
+}
+
+.non_crashed_cell {
+    background-color: cornflowerblue;
+}
+
+.white_cell {
+    background-color: white;
+}
+
+.empty_cell {
+    background-color: black;
+}
+
+.red_cake_cell {
+    background-color: red;
+}
