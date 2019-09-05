@@ -16,19 +16,23 @@ body {
     background-color: dodgerblue;
 }
 
-.hero_head{
+.crashing_block {
+    background-color: orangered;
+}
+
+.hero_head {
     background-color: dodgerblue;
 }
 
-.hero{
+.hero {
     background-color: white;
 }
 
-.mob_with_cake{
+.mob_with_cake {
     background-color: darkred;
 }
 
-.mob{
+.mob {
     background-color: orangered;
 }
 
