@@ -1,4 +1,6 @@
-class block {
+import {initialize_empty_array} from './additional_functions'
+
+export class block {
     constructor(type, index_x, index_y, length) {
         // type of block
         this.cake = false;

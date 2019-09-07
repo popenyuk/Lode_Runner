@@ -1,6 +1,10 @@
 /*global window, document */
 "use strict";
 
+import {sound} from './music_loader'
+import {processing_lvl, read_level_from_file} from './additional_functions'
+import css from '../styles/main.css';
+
 let Lode_runner = {};
 
 // Configuration

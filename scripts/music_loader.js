@@ -1,5 +1,5 @@
 // taken from https://www.w3schools.com/graphics/game_sound.asp, as this is not the main point in the project
-function sound(src) {
+export function sound(src) {
     this.sound = document.createElement("audio");
     this.sound.src = src;
     this.sound.setAttribute("preload", "auto");

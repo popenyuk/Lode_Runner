@@ -1,0 +1,27 @@
+{
+  "name": "lode_runner",
+  "version": "1.0.0",
+  "description": "Game",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popenyuk/Lode_Runner.git"
+  },
+  "author": "Zenovii Popenyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popenyuk/Lode_Runner/issues"
+  },
+  "homepage": "https://github.com/popenyuk/Lode_Runner#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}

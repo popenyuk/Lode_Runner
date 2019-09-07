@@ -1,4 +1,7 @@
-let initialize_empty_array = function (number_of_pixels) {
+import {mob} from './mob'
+import {block} from './block'
+
+export function initialize_empty_array(number_of_pixels) {
     // initialize empty array for pixels
     let arr = new Array(number_of_pixels);
     for (let index = 0; index < number_of_pixels; ++index) {
@@ -8,9 +11,9 @@ let initialize_empty_array = function (number_of_pixels) {
         }
     }
     return arr;
-};
+}
 
-let processing_lvl = function (text) {
+export function processing_lvl(text) {
     // get new level, array of array, from string
     let level = new Array(text.length);
     let enemies = [];
@@ -30,9 +33,9 @@ let processing_lvl = function (text) {
         }
     }
     return [level, enemies, main_hero, number_of_cake];
-};
+}
 
-let read_level_from_file = function (name_of_file) {
+export function read_level_from_file(name_of_file) {
     /*The only working version of reading data from a txt file that I found.
     Copied from here https://www.quora.com/What-is-the-way-to-have-Javascript-read-from-a-txt-file.
     Copied because I don't consider it the basis for my game.*/
@@ -48,4 +51,4 @@ let read_level_from_file = function (name_of_file) {
     };
     rawFile.send(null);
     return text;
-};
+}

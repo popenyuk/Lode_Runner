@@ -1,4 +1,19 @@
-class mob {
+import {initialize_empty_array} from './additional_functions'
+
+let Lode_runner = {};
+
+// Const keycodes
+Lode_runner.Direction = {
+    // control the main hero
+    Up: 38,
+    Down: 40,
+    Left: 37,
+    Right: 39,
+    Z: 90,
+    X: 88,
+};
+
+export class mob {
     constructor(level, is_main_hero, index_x, index_y) {
         // identifies mob or main hero
         this.is_main_hero = is_main_hero;
